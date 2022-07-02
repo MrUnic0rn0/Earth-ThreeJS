@@ -4,7 +4,7 @@ import vitePluginString from 'vite-plugin-string'
 export default defineConfig({
   base: '/Earth-ThreeJS/',
   plugins: [vitePluginString()],
-  root: './src',     
+  root: './',     
   build: {    
      outDir: '../dist',
   },     
